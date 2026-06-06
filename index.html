@@ -1,5 +1,16 @@
 <!DOCTYPE html><html lang="en">
 <head>
+<script>
+// Protection against right-click and copy
+document.addEventListener('contextmenu', event => event.preventDefault());
+document.onkeydown = function(e) {
+  if(e.keyCode == 123) return false;
+  if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) return false;
+  if(e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) return false;
+  if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) return false;
+  if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) return false;
+};
+</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0,viewport-fit=cover">
 <meta name="theme-color" content="#ffffff"><title>ArtishPro.pk|Premium Handcrafted Jewellery in Kot Ghulam Muhammad</title><meta name="description" content="Shop premium handcrafted jewellery online in Pakistan. Resin art, phone cases, Jhumkee, earrings & more. COD available.">
