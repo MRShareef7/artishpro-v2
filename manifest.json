@@ -1,0 +1,29 @@
+{
+  "name": "ArtishPro.pk – Premium Handcrafted Jewellery Store",
+  "short_name": "ArtishPro",
+  "description": "Shop premium handcrafted jewellery online in Pakistan. Resin art, Jhumkee, earrings, phone cases & more. COD available nationwide.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#FAFAFA",
+  "theme_color": "#A855F7",
+  "orientation": "portrait-primary",
+  "lang": "en-PK",
+  "dir": "ltr",
+  "categories": ["shopping", "fashion", "lifestyle"],
+
+  "icons": [
+    {
+      "src": "https://i.ibb.co/yc4Xv9F2/favicon.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://i.ibb.co/yc4Xv9F2/favicon.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    }
+  ]
+}

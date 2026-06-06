@@ -1,0 +1,27 @@
+# Old .html city pages → new clean URL folders (301 permanent redirect)
+/karachi.html              /karachi/           301
+/mirpur-khas.html          /mirpur-khas/       301
+/digri.html                /digri/             301
+/samaro.html               /samaro/            301
+/jhuddo.html               /jhuddo/            301
+/tando-jan-mohammad.html   /tando-jan-mohammad/ 301
+/mirwah-gorchani.html      /mirwah-gorchani/   301
+/sindhri.html              /sindhri/           301
+/umerkot.html              /umerkot/           301
+/kunri.html                /kunri/             301
+/naukot.html               /naukot/            301
+/pithoro.html              /pithoro/           301
+/shujaabad.html            /shujaabad/         301
+/hussain-bux-mari.html     /hussain-bux-mari/  301
+/kachelo.html              /kachelo/           301
+/jawarisar.html            /jawarisar/         301
+/khudadad.html             /khudadad/          301
+/dengain-bhurgari.html     /dengain-bhurgari/  301
+/nabisar.html              /nabisar/           301
+/kot-ghulam-muhammad.html  /kot-ghulam-muhammad/ 301
+
+# Clean URL aliases
+/all-pages    /AllPages.html    200
+/all-pages/   /AllPages.html    200
+/admin        /admin.html       200
+/admin/       /admin.html       200
